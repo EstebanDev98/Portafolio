@@ -182,4 +182,4 @@
 ### 9. Conclucion
 >En conclusion, la guia realizada aqui sirve para aprender a manejar los conceptos basicos y comandos necesarios para trabajar con Git y GitHub y como incluirlo en editores de codigo como VSC. ¡Buena Suerte!
 
-nuevo texto
+nuevo texto mejorado
