@@ -1,0 +1,33 @@
+.float-img {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px); /* Movimiento hacia arriba */
+    }
+    100% {
+        transform: translateY(0); /* Vuelve a su posición original */
+    }
+}
+
+.float-icon {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Movimiento hacia arriba */
+    }
+    100% {
+        transform: translateY(0); /* Vuelve a su posición original */
+    }
+}

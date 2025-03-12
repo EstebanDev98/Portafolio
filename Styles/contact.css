@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+}
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa el 100% del alto de la ventana */
+}
+.form-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 500px; /* Ajusta el ancho máximo del formulario */
+    width: 100%;
+}
+
+.float-icon {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Movimiento hacia arriba */
+    }
+    100% {
+        transform: translateY(0); /* Vuelve a su posición original */
+    }
+}
