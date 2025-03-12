@@ -31,3 +31,25 @@
         transform: translateY(0); /* Vuelve a su posición original */
     }
 }
+
+.perfil-container {
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.w3c-container {
+    position: absolute;
+    right: 40px;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+.w3c-badge {
+    width: 100px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
+}
